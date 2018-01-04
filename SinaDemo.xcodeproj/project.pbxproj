@@ -14,6 +14,9 @@
 		8F48AF071FFDDAFF00098A90 /* QWDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF061FFDDAFF00098A90 /* QWDiscoverTableViewController.swift */; };
 		8F48AF091FFDDB1700098A90 /* QWMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF081FFDDB1700098A90 /* QWMessageTableViewController.swift */; };
 		8F48AF0B1FFDDB2500098A90 /* QWProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF0A1FFDDB2500098A90 /* QWProfileTableViewController.swift */; };
+		8F48AF0D1FFE057200098A90 /* QWDiscoverSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF0C1FFE057200098A90 /* QWDiscoverSearchView.swift */; };
+		8F48AF0F1FFE058100098A90 /* QWDiscoverSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F48AF0E1FFE058100098A90 /* QWDiscoverSearchView.xib */; };
+		8F48AF111FFE0ECD00098A90 /* UIView+IBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF101FFE0ECD00098A90 /* UIView+IBExtension.swift */; };
 		8F7870D61FF5EAEB00544903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7870D51FF5EAEB00544903 /* AppDelegate.swift */; };
 		8F7870DB1FF5EAEB00544903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7870D91FF5EAEB00544903 /* Main.storyboard */; };
 		8F7870DD1FF5EAEB00544903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7870DC1FF5EAEB00544903 /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 		8F48AF061FFDDAFF00098A90 /* QWDiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWDiscoverTableViewController.swift; sourceTree = "<group>"; };
 		8F48AF081FFDDB1700098A90 /* QWMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWMessageTableViewController.swift; sourceTree = "<group>"; };
 		8F48AF0A1FFDDB2500098A90 /* QWProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWProfileTableViewController.swift; sourceTree = "<group>"; };
+		8F48AF0C1FFE057200098A90 /* QWDiscoverSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWDiscoverSearchView.swift; sourceTree = "<group>"; };
+		8F48AF0E1FFE058100098A90 /* QWDiscoverSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QWDiscoverSearchView.xib; sourceTree = "<group>"; };
+		8F48AF101FFE0ECD00098A90 /* UIView+IBExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBExtension.swift"; sourceTree = "<group>"; };
 		8F7870D21FF5EAEB00544903 /* SinaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7870D51FF5EAEB00544903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F7870DA1FF5EAEB00544903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8F48AF001FFDD6C000098A90 /* UIBarButtonItem+Extension.swift */,
+				8F48AF101FFE0ECD00098A90 /* UIView+IBExtension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -220,6 +227,8 @@
 		8F7871021FF5EC9500544903 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AF0C1FFE057200098A90 /* QWDiscoverSearchView.swift */,
+				8F48AF0E1FFE058100098A90 /* QWDiscoverSearchView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -315,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F7870E01FF5EAEB00544903 /* LaunchScreen.storyboard in Resources */,
+				8F48AF0F1FFE058100098A90 /* QWDiscoverSearchView.xib in Resources */,
 				8F7870DD1FF5EAEB00544903 /* Assets.xcassets in Resources */,
 				8F7870DB1FF5EAEB00544903 /* Main.storyboard in Resources */,
 			);
@@ -335,7 +345,9 @@
 				8F48AF091FFDDB1700098A90 /* QWMessageTableViewController.swift in Sources */,
 				8F48AF0B1FFDDB2500098A90 /* QWProfileTableViewController.swift in Sources */,
 				8F48AF051FFDDAD000098A90 /* QWHomeTableViewController.swift in Sources */,
+				8F48AF111FFE0ECD00098A90 /* UIView+IBExtension.swift in Sources */,
 				8F7870D61FF5EAEB00544903 /* AppDelegate.swift in Sources */,
+				8F48AF0D1FFE057200098A90 /* QWDiscoverSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
