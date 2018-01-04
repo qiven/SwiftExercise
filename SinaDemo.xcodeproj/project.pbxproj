@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F48AEF91FFDD59E00098A90 /* QWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AEF81FFDD59E00098A90 /* QWNavigationController.swift */; };
+		8F48AF011FFDD6C000098A90 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF001FFDD6C000098A90 /* UIBarButtonItem+Extension.swift */; };
+		8F48AF031FFDDA3100098A90 /* QWTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF021FFDDA3100098A90 /* QWTabBarViewController.swift */; };
+		8F48AF051FFDDAD000098A90 /* QWHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF041FFDDAD000098A90 /* QWHomeTableViewController.swift */; };
+		8F48AF071FFDDAFF00098A90 /* QWDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF061FFDDAFF00098A90 /* QWDiscoverTableViewController.swift */; };
+		8F48AF091FFDDB1700098A90 /* QWMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF081FFDDB1700098A90 /* QWMessageTableViewController.swift */; };
+		8F48AF0B1FFDDB2500098A90 /* QWProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48AF0A1FFDDB2500098A90 /* QWProfileTableViewController.swift */; };
 		8F7870D61FF5EAEB00544903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7870D51FF5EAEB00544903 /* AppDelegate.swift */; };
-		8F7870D81FF5EAEB00544903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7870D71FF5EAEB00544903 /* ViewController.swift */; };
 		8F7870DB1FF5EAEB00544903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7870D91FF5EAEB00544903 /* Main.storyboard */; };
 		8F7870DD1FF5EAEB00544903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7870DC1FF5EAEB00544903 /* Assets.xcassets */; };
 		8F7870E01FF5EAEB00544903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7870DE1FF5EAEB00544903 /* LaunchScreen.storyboard */; };
@@ -16,9 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F48AEF81FFDD59E00098A90 /* QWNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWNavigationController.swift; sourceTree = "<group>"; };
+		8F48AF001FFDD6C000098A90 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		8F48AF021FFDDA3100098A90 /* QWTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWTabBarViewController.swift; sourceTree = "<group>"; };
+		8F48AF041FFDDAD000098A90 /* QWHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWHomeTableViewController.swift; sourceTree = "<group>"; };
+		8F48AF061FFDDAFF00098A90 /* QWDiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		8F48AF081FFDDB1700098A90 /* QWMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWMessageTableViewController.swift; sourceTree = "<group>"; };
+		8F48AF0A1FFDDB2500098A90 /* QWProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QWProfileTableViewController.swift; sourceTree = "<group>"; };
 		8F7870D21FF5EAEB00544903 /* SinaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7870D51FF5EAEB00544903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F7870D71FF5EAEB00544903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F7870DA1FF5EAEB00544903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F7870DC1FF5EAEB00544903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7870DF1FF5EAEB00544903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +49,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F48AEFA1FFDD63200098A90 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8F48AEFD1FFDD64700098A90 /* Extension */,
+				8F48AEFC1FFDD64400098A90 /* Temp */,
+			);
+			name = Tools;
+			path = SinaDemo/Tools;
+			sourceTree = SOURCE_ROOT;
+		};
+		8F48AEFC1FFDD64400098A90 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Temp;
+			sourceTree = "<group>";
+		};
+		8F48AEFD1FFDD64700098A90 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F48AF001FFDD6C000098A90 /* UIBarButtonItem+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		8F7870C91FF5EAEB00544903 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +97,6 @@
 				8F7870E81FF5EB4000544903 /* Model */,
 				8F7870E71FF5EB4000544903 /* ViewModel */,
 				8F7870D51FF5EAEB00544903 /* AppDelegate.swift */,
-				8F7870D71FF5EAEB00544903 /* ViewController.swift */,
 				8F7870D91FF5EAEB00544903 /* Main.storyboard */,
 				8F7870DC1FF5EAEB00544903 /* Assets.xcassets */,
 				8F7870DE1FF5EAEB00544903 /* LaunchScreen.storyboard */,
@@ -86,6 +122,7 @@
 		8F7870EE1FF5EBD900544903 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AEFA1FFDD63200098A90 /* Tools */,
 				8F7870F91FF5EC3B00544903 /* Main */,
 				8F7870F81FF5EC3800544903 /* Home */,
 				8F7870F51FF5EC1A00544903 /* Discover */,
@@ -151,6 +188,8 @@
 		8F7870FC1FF5EC7800544903 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AEF81FFDD59E00098A90 /* QWNavigationController.swift */,
+				8F48AF021FFDDA3100098A90 /* QWTabBarViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -158,6 +197,7 @@
 		8F7870FF1FF5EC8E00544903 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AF041FFDDAD000098A90 /* QWHomeTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -172,6 +212,7 @@
 		8F7871011FF5EC9300544903 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AF061FFDDAFF00098A90 /* QWDiscoverTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -186,6 +227,7 @@
 		8F7871031FF5EC9700544903 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AF081FFDDB1700098A90 /* QWMessageTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -200,6 +242,7 @@
 		8F7871051FF5EC9C00544903 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F48AF0A1FFDDB2500098A90 /* QWProfileTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -237,6 +280,7 @@
 		8F7870CA1FF5EAEB00544903 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QW;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = OneKeyV;
@@ -283,8 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F48AF011FFDD6C000098A90 /* UIBarButtonItem+Extension.swift in Sources */,
+				8F48AF071FFDDAFF00098A90 /* QWDiscoverTableViewController.swift in Sources */,
+				8F48AF031FFDDA3100098A90 /* QWTabBarViewController.swift in Sources */,
+				8F48AEF91FFDD59E00098A90 /* QWNavigationController.swift in Sources */,
 				8F7871081FF5ED3E00544903 /* QWTabBar.swift in Sources */,
-				8F7870D81FF5EAEB00544903 /* ViewController.swift in Sources */,
+				8F48AF091FFDDB1700098A90 /* QWMessageTableViewController.swift in Sources */,
+				8F48AF0B1FFDDB2500098A90 /* QWProfileTableViewController.swift in Sources */,
+				8F48AF051FFDDAD000098A90 /* QWHomeTableViewController.swift in Sources */,
 				8F7870D61FF5EAEB00544903 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
